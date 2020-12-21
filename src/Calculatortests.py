@@ -1,4 +1,4 @@
-import unitest
+import unittest
 from Calculator import Calculator
 
 class MyTestCase(unittest.TestCase):
@@ -7,5 +7,5 @@ class MyTestCase(unittest.TestCase):
         calculator = Calculator()
         self.assertIsInstance(calculator, Calculator)
 
-if _name_== '_main_':
+if __name__ == '__main__':
     unittest.main()
