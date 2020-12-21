@@ -35,7 +35,7 @@ def square(a):
 
 
 def square_rt(a):
-    return math.sqrt(a)
+    return math.sqrt(float(a))
 
 
 class Calculator:
