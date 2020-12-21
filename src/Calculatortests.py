@@ -5,7 +5,7 @@ from pprint import pprint
 
 
 class MyTestCase(unittest.TestCase):
-    def setUp(self) -> None:  # Method for setting up test fixture before exercising it. The method is called before calling the implemented test methods.
+    def setUp(self) -> None:
         self.calculator = Calculator()
 
     def test_instantiate_calculator(self):
