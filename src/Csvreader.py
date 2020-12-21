@@ -1,10 +1,5 @@
 import csv
-# In PyCharm, use from pprint import pprint. In terminal, use pip install pprint.
 from pprint import pprint
-
-
-#   def ClassFactory(class_name,dictionary):
-#       return type(class_name, (object), dictionary)
 
 
 class Csvreader:
@@ -16,10 +11,3 @@ class Csvreader:
             for row in csv_data:
                 self.data.append(row)
         pass
-
-# Inheritance Example
-#    def return_data_as_objects(self, class_name):
-#        objects = []
-#        for row in self.data:
-#            objects.append(ClassFactory(class_name, row))
-#        return objects
